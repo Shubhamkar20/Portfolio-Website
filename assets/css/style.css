@@ -177,6 +177,17 @@ body {
   text-shadow: 0 0 8px white;
 }
 
+.skillsIcons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.skillsItems img{
+  max-width: 238px;
+  height: auto;
+}
+
 
 /* ===============================================Contact section =========================================== */
 #contact h1{
