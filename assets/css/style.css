@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.container{
+  max-width: 1280px !important;
+}
+
 html{
   scroll-behavior: smooth;
 
@@ -170,6 +174,10 @@ body {
   color: #fee6e3;
   text-shadow: 0 0 5px rgba(30, 132, 242, 0.84);
   line-height: 25px;
+}
+
+#aboutSection .container{
+  justify-content: space-between;
 }
 
 
